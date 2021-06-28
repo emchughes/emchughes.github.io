@@ -1,0 +1,196 @@
+/* Custom properties/variables  */
+:root {
+	--main-white: #f0f0f0;
+	--main-light-blue: #9febeb;
+	--main-grey: #2F4858;
+	--main-yellow: #F6AE2D;
+	--main-blue: #3F5073;
+	--main-orange: #F26419;
+  }
+
+/* Main properties */
+body {
+	font-family: 'Optima', sans-serif;
+	font-size: 8px;
+	font-weight: 400;
+	line-height: 1.4;
+	color: var(--main-white);
+}
+
+h1,h2 {
+  	font-family: 'Optima', sans-serif;
+  	font-weight: 700;
+  	text-align: center;
+}
+
+h1 {
+	font-size: 55px;
+}
+  
+h2 {
+	font-size: 45px;
+  }
+
+p {
+	font-size: 22px;
+}
+
+ul {
+	list-style: none;
+	color: var(--main-white);
+}
+
+a {
+	text-decoration: none;
+	color: var(--main-white);
+}
+  
+img {
+	display: inline-block;
+	width: 100%;
+	max-width: 100%;
+}
+ 
+.image {
+	flex-basis: 100%
+}
+
+
+.text {
+	display: flex;
+	align-items: flex-start;
+	font-size: 20px;
+	padding-right: 300px;
+	padding-left: 300px;
+	text-align: center;
+
+}
+
+.container {
+	align-items: flex-start;
+	text-align: left;
+
+}
+
+/* Navbar properties */
+
+.nav-brand-logo {
+	width: 15%;
+}
+
+nav {
+	color: white;
+	font-size: 28px;
+	font-family: 'Optima', sans-serif;
+	position: fixed;
+	background-color:var(--main-blue);
+}
+
+/* Welcome section properties */
+
+.welcome-section {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	margin-left: 0px; 
+	background: var(--main-blue);
+}
+
+.profile-image {
+	width: 50%;
+	margin-bottom: 75px;
+}
+
+.languages {
+	font-size: 22px;
+}
+
+/* Project section properties */
+
+.projects-section{
+	text-align: center;
+  	padding: 10rem 2rem;
+	background: var(--main-grey);
+}
+
+.projects-section-header {
+	max-width: 640px;
+	margin: 0 auto 6rem auto;
+}
+
+@media (max-width: 28.75em) {
+	.projects-section-header {
+	  font-size: 4rem;
+	}
+  }
+
+
+.project {
+	background: var(--main-blue);
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	border-radius: 2px;
+  }
+
+.projects-grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 4rem;
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	margin-bottom: 6rem;
+}
+
+@media (max-width: 30.625em) {
+	.projects-section {
+	  padding: 6rem 1rem;
+	}
+  
+	.projects-grid {
+	  grid-template-columns: 1fr;
+	}
+  }
+
+.project-image {
+	float: left;
+	width: 384px;
+	height: 400px;
+	object-fit: cover;
+}
+
+.project-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.project-title-span {
+	transition: color 0.3s ease-out;
+}
+
+.project:hover .project-title-span {
+	color: var(--main-yellow);
+  }
+
+/* Contact section properties */
+
+.contact-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+	padding: 0 2rem;
+	background: var(--main-blue);
+}
+
+/* .contact-section-header {
+	color: var(--main-yellow);
+} */
+
