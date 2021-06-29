@@ -11,70 +11,70 @@
   />
 
   <!--NAV BAR-->
-  <nav class="navbar navbar-dark">
+  <nav id="navbar" class="navbar fixed-top">
     <a class="navbar-brand" href="https://github.com/emchughes">
       <img class="nav-brand-logo" src="images/nav-brand.png">
     </a>
     <ul class="nav">
       <li class="nav-item">
-        <a class="nav-link active" href="#welcome-section">About</a>
+        <a class="nav-link active" href="#welcome">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="#projects-section">Projects</a>
+        <a class="nav-link active" href="#projects">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#contact-section">Contact</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Resume</a>
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Resume</a>
       </li>
     </ul>
     
   </nav>
 
   <!--WELCOME SECTION-->
-  <section id="welcome" class="welcome-section"> 
+  <section id="welcome" class="welcome-section">
     <h1>Elizabeth McHughes</h1>
     <div class="image">
         <img class="profile-image" src="images/IMG_6694.jpeg">
     </div>
-    <p class="text">
+    <p class="lead text">
       I am a software developer and recent graduate 
-      from the University of Central Okalahoma. 
-      Tinkering is has always been my favorite past time as I am an 
-      obsessive problem solver. This is ultimately what 
+      from the University of Central Okalahoma with a bachelors in Computer Science. 
+      Tinkering and problem solving have always been an obsession and this is ultimately what 
       drew me to computer science and programming. In school I have worked on 
       many group projects and am a natural leader with a hard work 
       ethic. I have no fear of asking questions or admitting mistakes; 
       I would be a valuable asset to your team. 
       <br><br>
       Here are the technologies with which I have experience:
-      <ul class="languages">
-        <li>
+      <ul class="list-inline languages">
+        <li class="list-inline-item">
           Javascript 
         </li>
-        <li>
+        <li class="list-inline-item">
           Node.js
         </li>
-        <li>
+        <li class="list-inline-item">
           C++
         </li>
-        <li>
+        <li class="list-inline-item">
           Java
         </li>
-        <li>
+        <li class="list-inline-item">
           Python
         </li>
-        <li>
+        <li class="list-inline-item">
           SQL
         </li>
-        <li>
+        <li class="list-inline-item">
           Flutter/Dart
         </li>
-        <li>
+        <li class="list-inline-item">
           Visual Basic
         </li>
       </ul>
+      
     </p>
   </section>
 
@@ -105,7 +105,7 @@
       </p>
       </a>
       <a 
-        href="https://myfavoritemurder.com"
+        href="https://github.com/emchughes/iCoachSports"
         target="_blank"
         class="project project-tile">
         <img class="project-image" src="images/iCoachSports-home_screen.png">
@@ -125,13 +125,28 @@
     <p>
       I think we could work well together.
     </p>
-    <a 
-      id="github-profile-link"
-      href="https://github.com/emchughes"
-      target="_blank"
-      class="btn contact-link">
-        <i class="fab fa-github"></i>
-      GitHub
-    </a>
+    <div class="contact-links">
+        <a
+          id="github-profile-link"
+          href="https://github.com/emchughes"
+          target="_blank"
+          class="btn contact-details">
+            <i class="fab fa-github"></i>
+          GitHub
+        </a>
+        <a 
+          id="linkedin-profile-link"
+          href="https://elizabeth-mchughes-01878570"
+          target="_blank"
+          class="btn contact-details">
+          <i class="fab fa-linkedin"></i>
+        LinkedIn
+      </a>
+      <a 
+        href="mailto:eliza.mchughes@gmail.com"
+        class="btn contact-details">
+        <i class="fas fa-at"></i> Email Me
+      </a>
+    </div>
   </section>
 </html>
