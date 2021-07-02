@@ -94,14 +94,12 @@ nav {
 	margin-left: 0px; 
 	background: var(--main-purple);
 	color: var(--main-brown);
-	margin-top: 50px;
-	padding-top: 130px;
-	padding-bottom: 50px;
 }
 
 .welcome-section > h1 {
 	text-shadow: 1px 1px 1px var(--main-white);
 	transition: transform 0.3s ease-out;
+	padding-bottom: 50px;
 }
 
 .welcome-section > p {
