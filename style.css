@@ -135,7 +135,7 @@ nav {
 
 @media (max-width: 28.75em) {
 	.welcome-section {
-		margin: 0 1rem;
+		height: 75vh;
 	}
   }
 
