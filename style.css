@@ -134,8 +134,7 @@ nav {
 }
 
 @media (max-width: 28.75em) {
-	.welcome-section > p {
-	  justify-content: center;
+	.welcome-section > h1 {
 	  padding-bottom: 0px;
 	  width: 100%;
 	}
