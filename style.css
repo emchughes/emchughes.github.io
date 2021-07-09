@@ -8,6 +8,27 @@
 	--main-brown: #35281D;
   }
 
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+	html {
+	  font-size: 60%;
+	}
+  }
+  
+  /* 980px / 16px = 61.25em */
+  @media (max-width: 61.25em) {
+	html {
+	  font-size: 58%;
+	}
+  }
+  
+  /* 460px / 16px = 28.75em */
+  @media (max-width: 28.75em) {
+	html {
+	  font-size: 55%;
+	}
+  }
+
 /* Main properties */
 body {
 	font-family: 'Optima', sans-serif;
@@ -76,6 +97,16 @@ nav {
 	text-shadow: 1px 1px 1px var(--main-brown);
 	transition: transform 0.3s ease-out;
 }
+
+@media (max-width: 28.75em) {
+	.nav {
+	  justify-content: center;
+	}
+  
+	.nav-item {
+	  margin: 0 1rem;
+	}
+  }
 
 .nav-item a:hover {
 	color: var(--main-brown);
