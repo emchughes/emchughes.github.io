@@ -134,15 +134,12 @@ nav {
 }
 
 @media (max-width: 28.75em) {
-	.welcome-section {
+	.welcome-section > p {
 	  justify-content: center;
 	  padding-bottom: 0px;
+	  width: 100%;
 	}
-  
-	.nav-item {
-	  margin: 0 1rem;
-	}
-  }
+
 
 .welcome-section > p {
 	font-weight: 200;
