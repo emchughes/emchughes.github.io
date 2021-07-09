@@ -133,6 +133,17 @@ nav {
 	padding-bottom: 50px;
 }
 
+@media (max-width: 28.75em) {
+	.welcome-section {
+	  justify-content: center;
+	  padding-bottom: 0px;
+	}
+  
+	.nav-item {
+	  margin: 0 1rem;
+	}
+  }
+
 .welcome-section > p {
 	font-weight: 200;
 	text-shadow: 1px 1px 1px var(--main-brown);
