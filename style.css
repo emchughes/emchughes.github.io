@@ -212,9 +212,8 @@ nav {
   }
 
 .project-image {
-	float: left;
-	width: 384px;
-	height: 400px;
+	height: calc(100% - 6.8rem);
+	width: 100%;
 	object-fit: cover;
 }
 
